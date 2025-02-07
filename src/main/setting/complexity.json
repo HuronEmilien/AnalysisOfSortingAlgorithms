@@ -1,0 +1,73 @@
+{
+    "BubbleSort": {
+      "Type": "Quadratic",
+      "Average Complexity": "O(n^2)",
+      "Best Case": "O(n)",
+      "Worst Case": "O(n^2)",
+      "Space Complexity": "O(1)"
+    },
+    "CocktailShakerSort": {
+      "Type": "Quadratic",
+      "Average Complexity": "O(n^2)",
+      "Best Case": "O(n)",
+      "Worst Case": "O(n^2)",
+      "Space Complexity": "O(1)"
+    },
+    "GnomeSort": {
+      "Type": "Quadratic",
+      "Average Complexity": "O(n^2)",
+      "Best Case": "O(n)",
+      "Worst Case": "O(n^2)",
+      "Space Complexity": "O(1)"
+    },
+    "HeapSort": {
+      "Type": "Logarithmic",
+      "Average Complexity": "O(n log n)",
+      "Best Case": "O(n log n)",
+      "Worst Case": "O(n log n)",
+      "Space Complexity": "O(1)"
+    },
+    "InsertionSort": {
+      "Type": "Quadratic",
+      "Average Complexity": "O(n^2)",
+      "Best Case": "O(n)",
+      "Worst Case": "O(n^2)",
+      "Space Complexity": "O(1)"
+    },
+    "MergeSort": {
+      "Type": "Logarithmic",
+      "Average Complexity": "O(n log n)",
+      "Best Case": "O(n log n)",
+      "Worst Case": "O(n log n)",
+      "Space Complexity": "O(n)"
+    },
+    "QuickSort": {
+      "Type": "Logarithmic",
+      "Average Complexity": "O(n log n)",
+      "Best Case": "O(n log n)",
+      "Worst Case": "O(n^2)",
+      "Space Complexity": "O(log n)"
+    },
+    "RadixSort": {
+      "Type": "Wierd",
+      "Average Complexity": "O(nk)",
+      "Best Case": "O(nk)",
+      "Worst Case": "O(nk)",
+      "Space Complexity": "O(n + k)"
+    },
+    "SelectionSort": {
+      "Type": "Quadratic",
+      "Average Complexity": "O(n^2)",
+      "Best Case": "O(n^2)",
+      "Worst Case": "O(n^2)",
+      "Space Complexity": "O(1)"
+    },
+    "ShellSort": {
+      "Type": "Wierd",
+      "Average Complexity": "O(n log n)",
+      "Best Case": "O(n log n)",
+      "Worst Case": "O(n^2)",
+      "Space Complexity": "O(1)"
+    }
+  }
+  

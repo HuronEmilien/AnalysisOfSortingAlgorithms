@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StatsAnalyse</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="../resources/css/style.css">
+    <link rel="stylesheet" href="../resources/css/dashboard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link type="image/png" sizes="32x32" rel="icon" href="../resources/icon/favicon.png">
+
+</head>
+<body>
+    
+    <div class="container">
+        <nav class="sidebar">
+            <h1 class="title-sidebar">Analyser</h1>
+            
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="material-symbols-outlined">Dashboard</span>
+                        Dashboard
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="generator.html" class="nav-link">
+                        <span class="material-symbols-outlined">query_stats</span>
+                        Generator
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="analyse.html" class="nav-link">
+                        <span class="material-symbols-outlined">nest_clock_farsight_analog</span>
+                        Analyse
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <main class="main-content">
+            
+            <div class="topside">
+                <div class="card" id="card1">
+                    <div class="card-header">
+                        <h2 class="card-title">Global Value Check</h2>
+
+                        <div class="dropdownsligne"></div>
+
+                    </div>
+                </div>
+                <div class="card" id="card2">
+                    <div class="card-header">
+                        <h2 class="card-title">Leaderboard</h2>
+                            <div class="dropdownsligne"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" id="card3">
+                <div class="card-header">
+                    <h2 class="card-title">View Data</h2>
+                        <h1 style="font-size: medium;">10 000</h1>
+                </div>
+                <div class="Tabcontainer">
+                    
+            </div>
+            
+
+
+        </main>
+    </div>
+
+    <script src="../model/dashboard/createGraphRadar.js"></script>
+    <script src="../model/dashboard/createGraphBar.js"></script>
+    <script src="../model/dashboard/createTab.js"></script>
+    <script src="../controller/general/dropDown.js"></script>
+    <script src="../controller/dashboard/fillDash.js"></script>
+    <script src="../controller/dashboard/DashGene.js"></script>
+
+</body>
+</html>

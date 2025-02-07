@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StatsAnalyse</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="../resources/css/style.css">
+    <link rel="stylesheet" href="../resources/css/allgene.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link type="image/png" sizes="32x32" rel="icon" href="../resources/icon/favicon.png">
+
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <h1 class="title-sidebar">Analyser</h1>
+            
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        <span class="material-symbols-outlined">Dashboard</span>
+                        Dashboard
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="material-symbols-outlined">query_stats</span>
+                        Generator
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="analyse.html" class="nav-link">
+                        <span class="material-symbols-outlined">nest_clock_farsight_analog</span>
+                        Analyse
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <main class="main-content">
+
+            <!-- <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">element 1</h2>
+                    <div class="dropdown">
+                        <button class="dropdown-button">100</button>
+                        <div class="dropdown-content">
+                            <div class="dropdown-item">100</div>
+                            <div class="dropdown-item">1 000</div>
+                            <div class="dropdown-item">10 000</div>
+                        </div>
+                    </div>
+                </div>
+                <canvas id="lineChart"></canvas>
+            </div> -->
+
+           
+        </main>
+    </div>
+    
+    <script src="../model/generator/createGraphLine.js"></script>
+    <script src="../controller/general/dropDown.js"></script>
+    <script src="../controller/generator/fillgraph.js"></script>
+    <script src="../controller/generator/PageallGene.js"></script>
+
+</body>
+</html>
